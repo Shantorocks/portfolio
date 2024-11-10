@@ -36,7 +36,7 @@ Version      : 1.0
 :root {
     --main-color: rgb(180, 180, 180);
     --heading-color: rgb(29, 29, 38);
-    --primary-color: #ee1d23;
+    --primary-color: #e7b81c;
     --lighter-color: #1F1F1F;
     --subtitle-color: rgb(119, 119, 125);
     --black-color: #070707;
@@ -3370,4 +3370,29 @@ ul.blog_pagination li a:hover {
     border-radius: 14px;
     padding: 25px;
     border: 1px solid var(--border-color);
+}
+
+
+
+/* Style the container to center align the icons */
+.contact_page_social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 20px auto; /* Center horizontally with margin */
+    display: flex;
+    justify-content: center; /* Center icons horizontally */
+    gap: 20px; /* Space between icons */
+}
+
+/* Style for each icon link */
+.contact_page_social-icons li a {
+    font-size: 2.5rem; /* Adjust icon size */
+    color: #ffffff; /* Default icon color */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth hover transition */
+}
+
+/* Hover effect for icons */
+.contact_page_social-icons li a:hover {
+    color: #e7b81c; /* Hover color */
 }
