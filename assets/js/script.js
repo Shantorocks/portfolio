@@ -18,7 +18,7 @@ Version      : 1.0
 
         /* New addition*/
 
-        
+
 
         /*
          * ----------------------------------------------------------------------------------------
@@ -39,12 +39,12 @@ Version      : 1.0
         $(window).on('load', function() {
 
             $('.loader').fadeOut();
-            $('#preloader-area').delay(350).fadeOut('slow');
+            $('#preloader-area').delay(100).fadeOut('slow');
 
 
 
-            document.getElementById('image').click();
-            
+            document.getElementById('videos').click();
+
 
             // ## Project Filtering
             if ($('.project-masonry-active').length) {
@@ -95,8 +95,7 @@ Version      : 1.0
         headerStyle();
 
 
-        function expand()
-        {
+        function expand() {
             document.querySelectorAll('.hiddenImage').forEach(element => {
                 element.classList.add('image');
             });
@@ -456,7 +455,7 @@ Version      : 1.0
 
     });
 
-    
+
     /* ==========================================================================
        When document is loaded, do
        ========================================================================== */
@@ -498,6 +497,6 @@ Version      : 1.0
 
 
 
-    
+
 
 })(window.jQuery);
