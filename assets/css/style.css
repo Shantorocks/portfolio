@@ -2455,7 +2455,7 @@ ul.extra-skills li i {
     border: 1px solid rgba(0, 0, 0, 0.05);
     border-radius: 20px;
     box-shadow: rgba(255, 255, 255, 0.025) 0px 0.362176px 0.651917px -1px inset, rgba(255, 255, 255, 0.036) 0px 3px 5.4px -2px inset;
-    background-color: var(--primary-color);
+    background-color: #121214;
 }
 
 .call-to-action-area {
@@ -2468,12 +2468,12 @@ ul.extra-skills li i {
     line-height: 70px;
     margin-bottom: 20px;
     font-weight: 400;
-    color: var(--black-color);
+    color: #ffffff;
 }
 
 .call-to-action-part p {
     font-size: 20px;
-    color: var(--lighter-color);
+    color: #a09f9f;
 }
 
 .footer-bottom .copyright-text {
