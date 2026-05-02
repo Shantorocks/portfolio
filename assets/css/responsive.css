@@ -1364,3 +1364,120 @@ Version      : 1.0
         padding: 0 15px;
     }
 }
+
+
+/* ==============================
+   MOBILE FIXES — max 768px
+   ============================== */
+@media (max-width: 768px) {
+
+  /* HERO SECTION — shrink the giant text */
+  .hero-content h1 {
+    font-size: 28px;
+    line-height: 1.3;
+    margin-bottom: 12px;
+  }
+
+  .hero-content h2 {
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+
+  /* Stack the hero image above text on mobile */
+  .main-hero-area .col-lg-4 {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  /* Make hero image smaller and centered */
+  .glitch img {
+    max-width: 200px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  /* PORTFOLIO GRID — full width cards on mobile */
+  .project-item {
+    margin-bottom: 20px;
+  }
+
+  /* ABOUT PAGE — stack image above text */
+  .about-image-part {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .about-image-part img {
+    max-width: 220px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 12px;
+  }
+
+  /* ABOUT BIO — readable font size */
+  .about-content-part h2 {
+    font-size: 22px;
+    line-height: 1.4;
+  }
+
+  .about-content-part p {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  /* SKILL CARDS — stack vertically */
+  .service-item {
+    margin-bottom: 24px;
+  }
+
+  /* STATS ROW — 2x2 grid instead of 1x4 */
+  .hero-counter-area {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  /* RESUME TIMELINE — tighten padding */
+  .resume-box {
+    padding-left: 16px;
+    margin-bottom: 24px;
+  }
+
+  .resume-date {
+    font-size: 13px;
+  }
+
+  /* CTA SECTION — stack button and icons */
+  .call-to-action-part h2 {
+    font-size: 22px;
+  }
+
+  .call-to-action-part p {
+    font-size: 15px;
+    padding: 0 10px;
+  }
+
+  .contact_page_social-icons {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 16px;
+    padding: 0;
+  }
+
+  /* BRAND LOGO STRIP — smaller on mobile */
+  .scroller img {
+    height: 30px;
+  }
+
+  /* GENERAL SPACING */
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
